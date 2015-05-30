@@ -12,4 +12,4 @@ loadJSON = (path, success) ->
 
 loadJSON "/getip", (response) ->
   if response.ip
-    document.getElementById("greeting").innerHTML = "Hello, #{ response.ip }!"
+    document.getElementById("greeting").innerHTML = "Hello, #{ response.ip }! donkey"
